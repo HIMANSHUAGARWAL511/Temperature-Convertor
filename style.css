@@ -1,0 +1,70 @@
+body {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1px 33px;
+  padding-bottom: 3rem;
+  background-color: #80808033;
+  width: 34rem;
+}
+.content {
+  margin-top: 13px;
+  font-size: 1.4rem;
+  width: 90%;
+}
+.input {
+  width: 60%;
+  height: 2rem;
+  margin-right: 8px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn {
+  margin-top: 15px;
+  border: 2px solid gray;
+  width: 9rem;
+  height: 2.3rem;
+  font-size: 1.2rem;
+  border-radius: 13px;
+  background: #80808066;
+}
+#btn:hover {
+  cursor: pointer;
+}
+/**Respomsive Design**/
+@media screen and (max-width: 650px) {
+  .Container {
+    padding: 0px;
+    padding-bottom: 33px;
+    width: 85vw;
+  }
+  .btn {
+    display: block;
+  }
+}
+@media screen and (max-width: 513px) {
+  .content {
+    font-size: 1.3rem;
+  }
+  .btn {
+    font-size: 1.1rem;
+    width: 7rem;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .heading h1 {
+    font-size: 1.5rem;
+  }
+}

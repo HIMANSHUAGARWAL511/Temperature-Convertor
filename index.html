@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="heading">
+            <h1>
+                <b>Temperature Converter</b>
+            </h1>
+        </div>
+        <div class="content">
+            <div class="text">
+                <label for="input">Fahrenheit: </label>
+            </div>
+            <input type="text" name="" id="f" class="input" maxLength="12" pattern="[0-9]" />
+            <label for="input">&#176;F</label>
+            <button type="button" id="FBtn" class="btn" onclick="ConvertF()">
+                Convert
+            </button>
+        </div>
+        <div class="content">
+            <div class="text">
+                <label for="input">Rankine: </label>
+            </div>
+            <input type="text" name="" id="R" class="input" maxLength="12" pattern="[0-9]{12}">
+            <label for="input">&#176;R </label>
+            <button type="button" id="RBtn" class="btn" onclick="ConvertR()">
+                Convert
+            </button>
+        </div>
+        <div class="content">
+            <div class="text">
+                <label for="input">Celsius </label>
+            </div>
+            <input type="text" name="" id="c" class="input" maxLength="12" pattern="[0-9]" />
+            <label for="input">&#176;C </label>
+            <button type="button" id="CBtn" class="btn" onclick="ConvertC()">
+                Convert
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="text">
+                <label for="input">Kelvin: </label>
+            </div>
+            <input type="text" name="" id="k" class="input" maxLength="12" pattern="[0-9]" />
+            <label for="input"> K </label>
+            <button type="button" id="KBtn" class="btn" onclick="ConvertK()">
+                Convert
+            </button>
+        </div>
+    </div>'
+    <script src="script.js"></script>
+</body>
+
+</html>
